@@ -21,7 +21,7 @@ const server = setupServer(
     };
 
     if (email === 'notExistEmail@test.com') {
-      return res(ctx.status(400), ctx.json({ errorCode: 'U004' }));
+      return res(ctx.status(400), ctx.json({ errorCode: 'U001' }));
     }
 
     if (password === 'invalidPassword') {
